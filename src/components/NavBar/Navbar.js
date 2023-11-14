@@ -8,7 +8,7 @@ const NavBar = () => {
             <Link to='/'>
             <h3>LGH</h3>
             </Link>
-            <div>
+            <div className="categories">
                 <NavLink to={`/category/Gaming Keyboards`} className={({isActive}) => isActive ? 'ActivateOption' : 'Option'}>Keyboards</NavLink>
                 <NavLink to={`/category/Gaming Mouse`} className={({isActive}) => isActive ? 'ActivateOption' : 'Option'}>Mouse</NavLink>
                 <NavLink to={`/category/Gaming Headsets`} className={({isActive}) => isActive ? 'ActivateOption' : 'Option'}>Headsets</NavLink>
