@@ -1,0 +1,26 @@
+/* Style for ItemListContainer */
+.ItemListContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the greeting h1 */
+.ItemListContainer h1 {
+    font-size: 2.5rem; /* Increased font size for emphasis */
+    color: #555; /* Adjusted text color */
+    margin-bottom: 30px; /* Increased bottom margin for better spacing */
+}
+
+/* Style for ItemList */
+.ListGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted minmax for better responsiveness */
+    gap: 30px; /* Increased gap between items for better spacing */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+
+

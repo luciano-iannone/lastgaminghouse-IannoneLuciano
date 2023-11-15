@@ -5,8 +5,6 @@ const Checkout = () => {
     const { cart, total, clearCart } = useContext(CartContext);
 
     const handleCheckout = () => {
-        // Implement your payment processing logic here
-        // For simplicity, we'll just clear the cart in this example
         alert('Thank you for your purchase!');
         clearCart();
     };
