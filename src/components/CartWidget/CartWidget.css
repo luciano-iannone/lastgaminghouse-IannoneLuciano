@@ -1,0 +1,15 @@
+.CartWidget {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Style for Cart image */
+.CartImg {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 20%; 
+    padding: 8px; 
+    box-shadow: 0 0 5px rgba(129, 129, 129, 0.3); 
+}

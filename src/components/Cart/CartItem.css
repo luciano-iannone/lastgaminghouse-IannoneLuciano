@@ -1,0 +1,84 @@
+/* CSS for CartItem component */
+
+.cart-item {
+    display: flex;
+    border: 1px solid #b3d9ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: #ecf4ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+h4 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #004080;
+    /* Dark blue for text */
+}
+
+p {
+    margin: 0;
+    color: #3366cc;
+    /* Light blue for details */
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #4da6ff;
+    /* Light blue for buttons */
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 0 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #b3d9ff;
+}
+
+/* CSS for CheckoutSection component */
+
+.CheckoutSection {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CheckoutSection h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #004080; /* Dark blue for text */
+  }
+  
+  .Button {
+    background-color: #4da6ff; /* Light blue for buttons */
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+  }
+  

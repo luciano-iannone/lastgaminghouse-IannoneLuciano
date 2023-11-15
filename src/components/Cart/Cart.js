@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import { CartContext } from '../Context/CartContext'
 import CartItem from '../Cart/CartItem'
 import { Link } from 'react-router-dom'
+import './CartItem.css'
 
 
 const Cart = () => {
@@ -17,7 +18,7 @@ const Cart = () => {
     }
 
     return (
-        <div>
+        <div className='CheckoutSection'>
             { cart.map(p => <CartItem key={p.id} {...p} />) }
             <h3>Total: ${total}</h3>
             <button onClick={() => clearCart()} className='Button'>Clear Cart</button>

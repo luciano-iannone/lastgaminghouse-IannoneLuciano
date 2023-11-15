@@ -16,7 +16,7 @@ const Checkout = () => {
                 <div key={item.id} className="checkout-item">
                     <span>{item.name}</span>
                     <span>Quantity: {item.quantity}</span>
-                    <span>Price: ${item.price * item.quantity}</span>
+                    <span>Price: ${item.price}</span>
                 </div>
             ))}
             <div className="total">
